@@ -20,7 +20,7 @@
     }
     
     .menu a {
-        padding: 5px 5px;
+        padding: 6px 6px;
         font-size: 13px;
         white-space: nowrap;
     }
@@ -82,9 +82,11 @@
     
     .cta {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 12px;
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     
     .container {

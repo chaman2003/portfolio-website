@@ -16,6 +16,15 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Scroll offset for fixed navbar */
+section {
+    scroll-margin-top: 80px;
+}
+
+.title {
+    scroll-margin-top: 100px;
+}
+
 img {
     max-width: 100%;
     height: auto;
