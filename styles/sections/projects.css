@@ -1,0 +1,41 @@
+/* Projects Section */
+.projects .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    padding: 32px;
+}
+
+.content {
+    padding: 24px;
+}
+
+.content h3 {
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+.content p {
+    color: #6c757d;
+    margin-bottom: 16px;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tags span {
+    background: #f8f9fa;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #2c3e50;
+    transition: all 0.3s ease;
+}
+
+.tags span:hover {
+    background: #e67e22;
+    color: #fff;
+}

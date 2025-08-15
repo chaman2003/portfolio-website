@@ -1,0 +1,29 @@
+/* Button Styles */
+.btn {
+    white-space: nowrap;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.primary {
+    background: #e67e22;
+    color: #fff;
+}
+
+.secondary {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}

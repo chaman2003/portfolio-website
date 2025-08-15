@@ -1,0 +1,105 @@
+/* About Section */
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.title:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #e67e22;
+}
+
+.edu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.school {
+    color: #e67e22;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.time,
+.grade {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.highlight {
+    color: #3498db;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.achievements {
+    margin-bottom: 48px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    padding-left: 32px;
+}
+
+.list li:before {
+    content: '🏆';
+    position: absolute;
+    left: 12px;
+}
+
+.list li:hover {
+    transform: translateX(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cert {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.item {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background: #e67e22;
+    color: #fff;
+}
+
+.lang {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+}
