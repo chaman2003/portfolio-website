@@ -49,6 +49,7 @@
     .pic {
         width: 230px;
         height: 230px;
+        margin-top: 5px;
     }
     
     .intro h1 {
@@ -169,6 +170,7 @@
     .pic {
         width: 180px;
         height: 180px;
+        margin-top: 5px;
     }
     
     .intro h1 {
