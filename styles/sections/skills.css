@@ -28,11 +28,3 @@
         padding: 32px;
     }
 }
-
-@media (max-width: 800px) {
-    .skills .grid {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 12px;
-        padding: 16px;
-    }
-}
