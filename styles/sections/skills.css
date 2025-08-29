@@ -12,10 +12,19 @@
 }
 
 /* Mobile: 3 skills per row */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .skills .grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
+        gap: 12px;
         padding: 16px;
+    }
+}
+
+/* Extra small devices: ensure 3 columns */
+@media (max-width: 480px) {
+    .skills .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        padding: 12px;
     }
 }
