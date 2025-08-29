@@ -55,9 +55,9 @@
 .list li {
     padding: 16px;
     margin-bottom: 16px;
-    background: #fff;
+    background: #1a1a1a;
     border-radius: 8px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
     position: relative;
     padding-left: 32px;
@@ -71,7 +71,7 @@
 
 .list li:hover {
     transform: translateX(10px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .cert {
@@ -82,17 +82,17 @@
 }
 
 .item {
-    background: #fff;
+    background: #1a1a1a;
     padding: 16px;
     border-radius: 8px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
     text-align: center;
 }
 
 .item:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     background: #e67e22;
     color: #fff;
 }

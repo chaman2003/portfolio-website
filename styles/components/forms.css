@@ -3,9 +3,9 @@
     max-width: 700px;
     margin: 0 auto;
     padding: 40px;
-    background: #fff;
+    background: #1a1a1a;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .group {
@@ -15,7 +15,7 @@
 .group label {
     display: block;
     margin-bottom: 8px;
-    color: #2c3e50;
+    color: #ffffff;
     font-weight: 500;
 }
 
@@ -23,9 +23,11 @@
 .group textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #e1e8ed;
+    border: 1px solid #333333;
     border-radius: 4px;
     transition: all 0.3s ease;
+    background: #2a2a2a;
+    color: #ffffff;
 }
 
 .group input:focus,
